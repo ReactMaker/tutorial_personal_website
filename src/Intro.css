@@ -1,0 +1,14 @@
+#introPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#introPage .title {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+#introPage .des {
+    font-size: 1em
+}
