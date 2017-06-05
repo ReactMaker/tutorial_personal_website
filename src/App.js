@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Intro from './Intro.js';
+import PhotoWall from './PhotoWall';
 import './App.css';
 
 class App extends Component {
@@ -7,6 +8,7 @@ class App extends Component {
     return (
       <div id="home">
         <Intro />
+        <PhotoWall />
       </div>
     );
   }
